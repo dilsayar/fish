@@ -5,6 +5,8 @@ A **Fish shell function** to summarize media files in the current directory and 
 - The count of **images**, **audio files**, and **video files**.
 - The **total duration** of audio and video files.
 
+![Sample Media Stats](sample.png "sample media stats")
+
 ---
 
 ## Features
