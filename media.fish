@@ -44,6 +44,6 @@ function media
     # Display the results
     echo "Media Summary:"
     echo "  Images: $image_count"
-    echo "  Audio files: $audio_count (Total duration: "(math $total_audio_duration / 60)" minutes)"
-    echo "  Video files: $video_count (Total duration: "(math $total_video_duration / 60)" minutes)"
+    echo "  Audio files: $audio_count (Total duration: "(math (math $total_audio_duration / 60 | string split "." | head -n1))" minutes)"
+    echo "  Video files: $video_count (Total duration: "(math (math $total_video_duration / 60 | string split "." | head -n1))" minutes)"
 end
