@@ -1,4 +1,4 @@
-function gp
+function gpx
     # Check if we're in a git repository
     if not git rev-parse --is-inside-work-tree >/dev/null 2>&1
         echo "Error: not a git repository"
